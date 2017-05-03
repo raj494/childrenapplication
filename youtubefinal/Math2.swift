@@ -70,7 +70,7 @@ class Math2: UIViewController {
         else if random == 3{
             Algebra.text="%"
             if(r1>r2){
-                answer = r1 % r2
+                answer = r2 % r1
             }
             else{
                 q1.text = String(r2)
