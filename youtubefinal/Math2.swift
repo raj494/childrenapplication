@@ -51,7 +51,7 @@ class Math2: UIViewController {
         }
         else if random == 1{
             Algebra.text="-"
-            answer = r1 - r2
+            answer = r2 - r1
             repeat{
                 r3 = Int(arc4random_uniform(200))-50
                 r4 = Int(arc4random_uniform(200))-25
@@ -60,7 +60,7 @@ class Math2: UIViewController {
         }
         else if random == 2{
             Algebra.text="*"
-            answer = r1 * r2
+            answer = r2 * r1
             repeat{
                 r3 = Int(arc4random_uniform(2000))
                 r4 = Int(arc4random_uniform(2000))
